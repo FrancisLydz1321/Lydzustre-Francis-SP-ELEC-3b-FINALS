@@ -107,6 +107,9 @@ class _HomeState extends State<Home> {
                           ),
                         ],
                       ),
+                      SizedBox(
+                        width: 60,
+                      ),
                       Text(
                         '2:00 pm',
                         style: TextStyle(
@@ -115,44 +118,61 @@ class _HomeState extends State<Home> {
                           fontWeight: FontWeight.w500,
                         ),
                       ),
-                      SizedBox(
-                        height: 20,
-                      ),
                     ],
                   ),
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(60),
-                    child: Image.asset(
-                      "assets/images/profile_1.jpg",
-                      height: 60,
-                      width: 60,
-                      fit: BoxFit.cover,
-                    ),
-                  ),
                   SizedBox(
-                    width: 20,
+                    height: 30,
                   ),
-                  Column(
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      SizedBox(
-                        height: 10,
+                      // 40:22
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(60),
+                        child: Image.asset(
+                          "assets/images/profile_2.jpg",
+                          height: 60,
+                          width: 60,
+                          fit: BoxFit.cover,
+                        ),
                       ),
-                      Row(
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'JUAN DE LA CRUZ',
+                                style: TextStyle(
+                                  color: Colors.black,
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                            ],
+                          ),
                           Text(
-                            'PANSIS LEDUSTRE',
+                            'What\'s Cracking my Homie',
                             style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 18,
+                              color: Colors.black45,
+                              fontSize: 16,
                               fontWeight: FontWeight.w500,
                             ),
                           ),
                         ],
                       ),
+                      SizedBox(
+                        width: 20,
+                      ),
                       Text(
-                        'What\'s good?',
+                        '9:35 pm',
                         style: TextStyle(
                           color: Colors.black45,
                           fontSize: 16,
@@ -161,13 +181,8 @@ class _HomeState extends State<Home> {
                       ),
                     ],
                   ),
-                  Text(
-                    '2:00 pm',
-                    style: TextStyle(
-                      color: Colors.black45,
-                      fontSize: 16,
-                      fontWeight: FontWeight.w500,
-                    ),
+                  SizedBox(
+                    height: 20,
                   ),
                 ],
               ),

@@ -1,3 +1,4 @@
+import 'package:chatt_app_finals/pages/chatpage.dart';
 import 'package:chatt_app_finals/pages/home.dart';
 import 'package:chatt_app_finals/pages/signin.dart';
 import 'package:chatt_app_finals/pages/signup.dart';
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: SignIn(),
       // home: SignUp(),
-      home: Home(),
+      // home: Home(),
+      home: ChatPage(),
     );
   }
 }
