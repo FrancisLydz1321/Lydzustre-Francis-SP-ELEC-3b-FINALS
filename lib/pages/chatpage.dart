@@ -87,7 +87,7 @@ class _ChatPageState extends State<ChatPage> {
                       padding: EdgeInsets.all(10),
                       margin: EdgeInsets.only(
                           right: MediaQuery.of(context).size.width / 2),
-                      alignment: Alignment.bottomRight,
+                      alignment: Alignment.topLeft,
                       decoration: BoxDecoration(
                           color: Color.fromARGB(255, 10, 240, 240),
                           borderRadius: BorderRadius.only(

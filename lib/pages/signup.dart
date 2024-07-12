@@ -8,6 +8,13 @@ class SignUp extends StatefulWidget {
 }
 
 class _SignUpState extends State<SignUp> {
+  String email = "", password = "", name = "", confirmPassword = "";
+
+  TextEditingController mailcontroller = new TextEditingController();
+  TextEditingController passwordcontroller = new TextEditingController();
+  TextEditingController namecontroller = new TextEditingController();
+  TextEditingController confirmPasswordcontroller = new TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
